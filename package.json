@@ -1,0 +1,30 @@
+{
+  "name": "purchase_invoice_ui",
+  "version": "1.0.0",
+  "description": "An application to createpurchase invoice using Frappe API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "cd purchase_invoice && yarn dev",
+    "build": "cd purchase_invoice && yarn build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@material-ui/core": "^4.12.4",
+    "@material-ui/icons": "^4.11.3",
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.9.3",
+    "crypto-js": "^4.2.0",
+    "datatables.net-dt": "^1.13.8",
+    "express": "^4.18.2",
+    "frappe-datatable": "^1.17.4",
+    "https": "^1.0.0",
+    "react-data-table-component": "^7.5.4",
+    "react-hook-form": "^7.48.2"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.1"
+  }
+}

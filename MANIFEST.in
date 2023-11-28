@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include purchase_invoice_ui *.css
+recursive-include purchase_invoice_ui *.csv
+recursive-include purchase_invoice_ui *.html
+recursive-include purchase_invoice_ui *.ico
+recursive-include purchase_invoice_ui *.js
+recursive-include purchase_invoice_ui *.json
+recursive-include purchase_invoice_ui *.md
+recursive-include purchase_invoice_ui *.png
+recursive-include purchase_invoice_ui *.py
+recursive-include purchase_invoice_ui *.svg
+recursive-include purchase_invoice_ui *.txt
+recursive-exclude purchase_invoice_ui *.pyc
